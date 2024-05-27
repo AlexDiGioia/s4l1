@@ -178,3 +178,26 @@ footer {
 footer a {
     color: fuchsia;
 }
+
+@media screen and (min-width:320px){
+
+    body{
+        font-size: 1.8rem;
+        line-height: 1.7;
+    }
+    /*table{
+        margin-left: auto;
+        margin-right: auto;
+    }*/
+}
+@media screen and(min-width:768px) {
+
+    
+}
+
+@media screen and(min-width:1200px) {
+    table{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
