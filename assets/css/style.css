@@ -200,16 +200,47 @@ footer a {
     table{
         margin-left: auto;
         margin-right:auto ; 
+
     }
-    
 }
 
 @media screen and (min-width:1200px) { 
+
+    header{
+        /*display: flex;
+        justify-content: space-between;*/
+        font-size: 2.2rem;
+        margin-left: 0;
+        padding-left: 0em;
+       text-align: left;
+    }
+    header div{
+        display: inline-block;
+        /*display: flex;
+        align-items: center;*/
+        width: 76%
+
+    }
+    header div img{
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    header div p{
+        display: inline-block;
+        text-align: center;
+    }
+
+    header nav{
+        display: inline-block;
+        vertical-align: middle;
+    }
 
     iframe{
         display: inline-block;
         width: 50%;
         height: 20rem;
+        width: 50%;
     }
     section{
         display: inline-block;
@@ -217,6 +248,9 @@ footer a {
         float: right;
         height: 20rem;
         border-radius: 20px;
-
+    }
+    aside div{
+        width: 33%;
+        display: inline-block;
     }
 }
